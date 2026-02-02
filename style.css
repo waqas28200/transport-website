@@ -170,4 +170,66 @@ li {
         width: 90%;
     }
 
+
 }
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    h1 {
+        font-size: 22px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+}
+@media (max-width: 768px) {
+
+    .menu {
+        background: #0a3d62;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        display: block;
+        margin: 8px 0;
+    }
+}
+@media (max-width: 768px) {
+
+    .fleet-card,
+    .service-box {
+        width: 95%;
+        margin: auto;
+    }
+}
+@media (max-width: 768px) {
+
+    .call-btn,
+    .whatsapp-btn {
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .header h1 {
+        letter-spacing: 1px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+ body {
+      background:  red;
+ }
