@@ -302,6 +302,22 @@ li {
         margin: 8px 0;
         text-align: center;
     }
+    /* ===== FORCE FIX HOME MENU ===== */
+
+/* Header background force */
+.header {
+    background-color: #0a3d62 !important;
+}
+
+/* Menu list fix */
+.header .menu {
+    background-color: #0a3d62 !important;
+}
+
+/* Menu text fix */
+.header .menu li a {
+    color: #ffffff !important;
+}
 
     .menu li a {
         color: white;
@@ -395,6 +411,7 @@ section, .container {
 body .menu li a {
     color: #ffffff !important;
 }
+
 
 
 
