@@ -1,4 +1,4 @@
-/* ===== Clean Blue Transport Theme ===== */
+/* ===== Final Blue Transport Theme - Clean & Polished ===== */
 
 /* Body */
 body {
@@ -44,9 +44,11 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+    transition: 0.3s;
 }
 
 .menu li a:hover {
+    color: #25D366; /* Green hover */
     text-decoration: underline;
 }
 
@@ -121,6 +123,7 @@ section, .container {
     font-size: 18px;
     border-radius: 6px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .booking a:hover {
@@ -142,6 +145,15 @@ section, .container {
     text-decoration: none;
     font-weight: bold;
     border-radius: 6px;
+    transition: 0.3s;
+}
+
+.call-btn:hover {
+    background-color: #0056b3;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebc59;
 }
 
 .call-btn {
@@ -173,6 +185,7 @@ section, .container {
     text-align: center;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     font-size: 16px;
+    transition: 0.3s;
 }
 
 .sticky-whatsapp {
@@ -185,6 +198,16 @@ section, .container {
     text-align: center;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Hover for Sticky Buttons */
+.sticky-call:hover {
+    background-color: #0056b3;
+}
+
+.sticky-whatsapp:hover {
+    background-color: #1ebc59;
 }
 
 /* Responsive */
