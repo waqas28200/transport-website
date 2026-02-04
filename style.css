@@ -1,4 +1,4 @@
-/* ===== Final Blue Transport Theme - Clean & Polished ===== */
+/* ===== Final Blue Transport Theme - Polished Horizontal Menu ===== */
 
 /* Body */
 body {
@@ -32,6 +32,9 @@ body {
     padding: 0;
     margin: 10px 0 0 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* allow wrapping if needed */
 }
 
 .menu li {
@@ -227,16 +230,19 @@ section, .container {
         margin: 15px 0;
     }
 
+    /* Horizontal Mobile Menu */
     .menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: row; /* horizontal menu on mobile */
+        justify-content: center;
+        flex-wrap: wrap;
         padding: 10px 0;
         background-color: #0a3d62;
     }
 
     .menu li {
-        display: block;
-        margin: 8px 0;
+        display: inline-block;
+        margin: 0 10px;
         text-align: center;
     }
 
