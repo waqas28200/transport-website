@@ -404,15 +404,17 @@ section, .container {
 .header {
     background-color: #0a3d62; /* dark blue */
 }
-
+/* menu text fix */
 .menu li a {
     color: #ffffff !important;
 }
+/* menu text fix */
 body .menu li a {
     color: #ffffff !important;
 }
 . header .menu li a {
     color :  #ffffff !impottant ;
+
 
 
 
