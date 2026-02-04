@@ -414,6 +414,28 @@ body .menu li a {
 }
 . header .menu li a {
     color :  #ffffff !impottant ;
+    
+/* ===== FORCE FIX HOME MENU ===== */
+
+/* Header background force */
+.header {
+    background-color: #0a3d62 !important;
+}
+
+/* Menu list fix */
+.header .menu {
+    background-color: #0a3d62 !important;
+}
+
+/* Menu text fix */
+.header .menu li a {
+    color: #ffffff !important;
+}
+/* menu text fix */
+.header .menu li a {
+    color: #ffffff !important;
+}
+
 
 
 
