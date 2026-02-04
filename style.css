@@ -1,4 +1,4 @@
-/* ===== Final Blue Transport Theme - Polished Horizontal Menu ===== */
+/* ===== Final Blue Transport Theme - Fully Polished ===== */
 
 /* Body */
 body {
@@ -34,7 +34,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* allow wrapping if needed */
+    flex-wrap: wrap;
 }
 
 .menu li {
@@ -55,9 +55,34 @@ body {
     text-decoration: underline;
 }
 
+/* Scrollable horizontal menu for mobile */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: row;
+        overflow-x: auto;               /* horizontal scroll */
+        -webkit-overflow-scrolling: touch; /* smooth scrolling iOS */
+        white-space: nowrap;            /* prevent wrapping */
+        background-color: #0a3d62;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        display: inline-block;
+        margin: 0 10px;
+        text-align: center;
+    }
+}
+
 /* Sections */
 section, .container {
     padding: 20px;
+}
+
+/* Hero Section */
+main h1 {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 28px;
 }
 
 /* Fleet Cards */
@@ -139,7 +164,7 @@ section, .container {
     padding: 30px;
 }
 
-/* Buttons */
+/* Call & WhatsApp Buttons */
 .call-btn, .whatsapp-btn {
     display: inline-block;
     padding: 12px 20px;
@@ -204,7 +229,6 @@ section, .container {
     transition: 0.3s;
 }
 
-/* Hover for Sticky Buttons */
 .sticky-call:hover {
     background-color: #0056b3;
 }
@@ -230,22 +254,6 @@ section, .container {
         margin: 15px 0;
     }
 
-    /* Horizontal Mobile Menu */
-    .menu {
-        display: flex;
-        flex-direction: row; /* horizontal menu on mobile */
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 10px 0;
-        background-color: #0a3d62;
-    }
-
-    .menu li {
-        display: inline-block;
-        margin: 0 10px;
-        text-align: center;
-    }
-
     .fleet-card,
     .service-box {
         width: 95%;
@@ -258,18 +266,5 @@ section, .container {
         display: block;
         margin: 10px auto;
         font-size: 18px;
-    }
-}
-/* Mobile horizontal scrollable menu */
-@media (max-width: 768px) {
-    .menu {
-        overflow-x: auto;          /* horizontal scroll */
-        -webkit-overflow-scrolling: touch; /* smooth scrolling iOS */
-        white-space: nowrap;       /* prevent wrapping */
-    }
-
-    .menu li {
-        display: inline-block;     /* horizontal items */
-        margin: 0 10px;
     }
 }
