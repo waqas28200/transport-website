@@ -384,4 +384,13 @@ section, .container {
 .whatsapp-btn {
     background-color: #25D366;
 }
+/* Fix menu visibility on home page */
+.header {
+    background-color: #0a3d62; /* dark blue */
+}
+
+.menu li a {
+    color: #ffffff !important;
+}
+
 
