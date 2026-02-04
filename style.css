@@ -435,6 +435,11 @@ body .menu li a {
 .header .menu li a {
     color: #ffffff !important;
 }
+    /* Menu font color change to black */
+.header .menu li a {
+    color: #000000 !important; /* Black */
+}
+
 
 
 
