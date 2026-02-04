@@ -260,3 +260,16 @@ section, .container {
         font-size: 18px;
     }
 }
+/* Mobile horizontal scrollable menu */
+@media (max-width: 768px) {
+    .menu {
+        overflow-x: auto;          /* horizontal scroll */
+        -webkit-overflow-scrolling: touch; /* smooth scrolling iOS */
+        white-space: nowrap;       /* prevent wrapping */
+    }
+
+    .menu li {
+        display: inline-block;     /* horizontal items */
+        margin: 0 10px;
+    }
+}
