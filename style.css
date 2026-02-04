@@ -439,6 +439,14 @@ body .menu li a {
 .header .menu li a {
     color: #000000 !important; /* Black */
 }
+/* Home page menu font color + visibility */
+.header {
+    background-color: #0a3d62 !important; /* Dark Blue background */
+}
+
+.header .menu li a {
+    color: #000000 !important; /* Black font */
+}
 
 
 
