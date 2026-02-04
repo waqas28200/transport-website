@@ -392,5 +392,9 @@ section, .container {
 .menu li a {
     color: #ffffff !important;
 }
+body .menu li a {
+    color: #ffffff !important;
+}
+
 
 
